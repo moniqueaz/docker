@@ -324,7 +324,7 @@ $ docker logout
 Tipos de Networks:
 
 Bridge - Geralmente usado para comunicação ente containers. \
-Host - Permite a comunica"ao entre o container e o host de forma direto, eles estaram na mesma rede. \
+Host - Permite a comunicao entre o container e o host de forma direto, eles estaram na mesma rede. \
 Overlay - Permite a comunicação entre containers em maquinas diferentes de farma que parece que estão na mesma rede. \
 Macla - Você consegue definir um endereço mac no seu container de forma que parece ser uma maquina plugada na sua rede. \
 None - Define que o container irá rodar de forma isolada. \
@@ -379,10 +379,10 @@ $ docker network inspect <tipo da network>
 <br/>
 
 ```zsh
-$ docker network create --diver <tipo da network> <nome da network>
+$ docker network create --driver <tipo da network> <nome da network>
 ```
 
-> Irá printa informações da network no terminal
+> Irá criar uma network
 
 <br/>
 
